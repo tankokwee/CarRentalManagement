@@ -21,6 +21,9 @@ namespace CarRentalManagement.Data
 			builder.ApplyConfiguration(new ColourSeed());
 			builder.ApplyConfiguration(new ModelSeeds());
 			builder.ApplyConfiguration(new MakeSeeds());
+			builder.ApplyConfiguration(new RoleSeed());
+			builder.ApplyConfiguration(new UserRoleSeed());
+			builder.ApplyConfiguration(new UserSeed());
 		}
 	}
 }
